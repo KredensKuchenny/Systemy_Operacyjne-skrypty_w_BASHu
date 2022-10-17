@@ -55,4 +55,6 @@ jeżeli miejsce jest wolne wpisać nazwisko osoby rezerwującej w tablicy samolo
       - program na ekranie terminalu powinien narysować miejsca w samolocie w rzędach po cztery miejsca,
       - wolne miejsce powinno być oznaczone w następujący sposób ”[ ]”, natomiast miejsce zajęte ”[Z]”,
       - dla przykładu, w samolocie w którym jest 12 miejsc , z czego miejsca: 1,3,4,8,10,11,12 są zajęte, w terminalu powinien wyświetlić się następujący widok:
+<p align="center">
 <img width="158" alt="Zrzut ekranu 2022-10-17 o 23 52 20" src="https://user-images.githubusercontent.com/61777542/196290792-4a0daa90-bfe3-4954-8849-24c4c7fe34e1.png">
+</p>
