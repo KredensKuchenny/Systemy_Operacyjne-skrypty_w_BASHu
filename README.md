@@ -1,4 +1,4 @@
-# Systemy_Operacyjne-skrypty_w_BASHu
+# Systemy Operacyjne - skrypty w BASHu
 
 ## Skrypty w BASHu opracowane na laboratorium "Systemy Operacyjne" 🥰
 
