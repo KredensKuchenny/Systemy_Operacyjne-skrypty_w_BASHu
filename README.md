@@ -37,3 +37,25 @@ błędnych danych
       - (k) Zakończenie programu.
     - W przypadku operacji na plikach i katalogach użytkownik powinien każdorazowo podawać ich nazwy oraz w przypadku pliku rozszerzenie. Program powinien weryfi- kować czy dana operacja jest możliwa do zrealizowania i informować o tym użytkow- nika. Dla przykładu, w przypadku tworzenia pliku po podaniu nazwy i rozszerzenia przez użytkownika, powinno zostać zweryfikowane czy taki plik już nie znajduję się w bieżącej lokalizacji, a jeśli się znajduje, użytkownik powinien zostać o tym poin- formowany oraz nie powinna zachodzić próba jego utworzenia.
 - <strong>Instrukcje do skryptów z katalogu lab_03:</strong>
+  - <strong>[lab_03_zad1.sh]</strong> Proszę napisać program w którym użytkownik podaje liczbę wyrazów ciągu arytmetycz- nego (n), różnicę ciągu (r) oraz pierwszy element ciągu (a). Na tej podstawie program powinien w tablicy zapisać wartości kolejnych n wyrazów ciągu oraz obliczyć ich sumę, a następnie wyświetlić terminalu.
+  - <strong>[lab_03_zad2.sh]</strong> Proszę napisać program w którym użytkownik podaje dwie liczby (a, b), a następnie program z wykorzystaniem dowolnego algorytmu umożliwia wyznaczenie NWD podanych liczb i wyświetla te wartość w terminalu.
+  - <strong>[lab_03_zad3.sh]</strong> Proszę napisać program umożliwiający użytkownikowi zarządzanie systemem rezerwacji w samolocie. Użytkownik powinien podać rozmiar samolotu (liczba miejsc - n) i utworzyć tablicę o podanym rozmiarze (samolot). Następnie powinien mieć możliwość w pętli nieskończonej wybrać jedną z następujących opcji:
+    - Rezerwacja miejsca
+      - użytkownik powinien podać numer miejsca oraz nazwisko osoby dla której do-
+konywana jest rezerwacja,
+      - program powinien zweryfikować czy miejsce jest wolne, czy zajęte. W przypadku
+jeżeli miejsce jest wolne wpisać nazwisko osoby rezerwującej w tablicy samolot.
+    - Zwolnienie rezerwacji
+      - użytkownik powinien podać numer miejsca oraz nazwisko osoby dla której do- konywane jest odwołanie rezerwacji,
+      - program powinien zweryfikować czy podane miejsce jest zarezerwowane dla po- danego użytkownika, a następnie jeżeli tak jest, powinien usunąć nazwisko z miejsca w tablicy.
+    - Wyświetlenie miejsca
+      - użytkownik powinien podać numer miejsca,
+      - program powinien wyświetlić nazwisko osoby dla której dane miejsce jest zare- zerwowane, lub w przypadku gdy miejsce jest wolne, wyświetlić stosowną informację.
+    - Wyświetlenie samolotu
+      - program na ekranie terminalu powinien narysować miejsca w samolocie w rzę-
+dach po cztery miejsca,
+      - wolne miejsce powinno być oznaczone w następujący sposób ”[ ]”, natomiast miejsce zajęte ”[Z]”,
+      - dlaprzykładu,wsamolociewktórymjest12miejsc,zczegomiejsca:1,3,4,8,10,11,12 są zajęte, w terminalu powinien wyświetlić się następujący widok:
+[Z] [ ] [Z] [Z]
+[ ] [ ] [ ] [Z]
+[ ] [Z] [Z] [Z]
