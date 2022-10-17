@@ -11,7 +11,7 @@ błędnych danych
   - <strong>[lab_01_zad5.sh]</strong> Skrypt proszący użytkownika o podanie: ciągu znaków który ma zostać wyszukany, typie pliku który ma zostać wyszukany, ścieżki w której ma zostać wyszukany dany ciąg oraz nazwy pliku do którego uzyskane dane mają zostać wpisane, tworzący plik z rozszerzeniem .txt (w katalogu w którym znajduje się skrypt) o podanej nazwie przez użytkownika. Dodatkowo wpisujący do tego pliku znalezione dane
   - <strong>[lab_01_zad6.sh]</strong> Skrypt proszący użytkownika o podanie liczby wyrazów ciągu fibonnaciego które mają zostać obliczone, wpisujący do tablicy kolejne wartości ciągu fibonnaciego jeśli wartość ta jest większa niż 0, w przypadku wpisania 0 powinien wyświetlać inforamcję o błędnych danych dodatkowo wyświetlający całą zawartość tablicy
   
-</br></br>
+</br>
 
 - <strong>Instrukcje do skryptów z katalogu lab_02:</strong>
   - <strong>[lab_02_zad1.sh]</strong> Proszę przygotować skrypt modyfikujący kalkulator napisany na poprzednich zajęciach w taki sposób, aby operacje matematyczne były wykonywane poprzez wywołanie dedy- kowanych funkcji napisanych przez autora skryptu.
@@ -40,7 +40,7 @@ błędnych danych
       - (k) Zakończenie programu.
     - W przypadku operacji na plikach i katalogach użytkownik powinien każdorazowo podawać ich nazwy oraz w przypadku pliku rozszerzenie. Program powinien weryfi- kować czy dana operacja jest możliwa do zrealizowania i informować o tym użytkow- nika. Dla przykładu, w przypadku tworzenia pliku po podaniu nazwy i rozszerzenia przez użytkownika, powinno zostać zweryfikowane czy taki plik już nie znajduję się w bieżącej lokalizacji, a jeśli się znajduje, użytkownik powinien zostać o tym poin- formowany oraz nie powinna zachodzić próba jego utworzenia.
 
-</br></br>
+</br>
 
 - <strong>Instrukcje do skryptów z katalogu lab_03:</strong>
   - <strong>[lab_03_zad1.sh]</strong> Proszę napisać program w którym użytkownik podaje liczbę wyrazów ciągu arytmetycz- nego (n), różnicę ciągu (r) oraz pierwszy element ciągu (a). Na tej podstawie program powinien w tablicy zapisać wartości kolejnych n wyrazów ciągu oraz obliczyć ich sumę, a następnie wyświetlić terminalu.
