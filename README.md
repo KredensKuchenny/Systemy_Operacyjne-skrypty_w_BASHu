@@ -52,10 +52,11 @@ jeżeli miejsce jest wolne wpisać nazwisko osoby rezerwującej w tablicy samolo
       - użytkownik powinien podać numer miejsca,
       - program powinien wyświetlić nazwisko osoby dla której dane miejsce jest zare- zerwowane, lub w przypadku gdy miejsce jest wolne, wyświetlić stosowną informację.
     - Wyświetlenie samolotu
-      - program na ekranie terminalu powinien narysować miejsca w samolocie w rzę-
-dach po cztery miejsca,
+      - program na ekranie terminalu powinien narysować miejsca w samolocie w rzędach po cztery miejsca,
       - wolne miejsce powinno być oznaczone w następujący sposób ”[ ]”, natomiast miejsce zajęte ”[Z]”,
-      - dlaprzykładu,wsamolociewktórymjest12miejsc,zczegomiejsca:1,3,4,8,10,11,12 są zajęte, w terminalu powinien wyświetlić się następujący widok:
+      - dla przykładu, w samolocie w którym jest 12 miejsc , z czego miejsca: 1,3,4,8,10,11,12 są zajęte, w terminalu powinien wyświetlić się następujący widok:
+      <pre>
 [Z] [ ] [Z] [Z]
 [ ] [ ] [ ] [Z]
 [ ] [Z] [Z] [Z]
+</pre>
