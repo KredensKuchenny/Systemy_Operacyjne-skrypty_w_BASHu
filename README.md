@@ -22,4 +22,18 @@ błędnych danych
       - (d) Wyświetlenie najmniejszej liczby znajdującej się w tablicy.
       - (e) Wyświetlenie największej liczby znajdującej się w tablicy. (f) Zakończenie programu.
       - Podpunkty od 2 do 5 powinny być wykonywane poprzez funkcje utworzone w celu realizacji konkretnego zadania.
+  - <strong>[lab_02_zad3.sh]</strong> Proszę przygotować skrypt który umożliwia realizację następujących założeń:
+    - użytkownik w pętli nieskończonej ma możliwość wykonania następujących operacji:
+      - (a) Utworzenie katalogu.
+      - (b) Utworzenie pliku.
+      - (c) Wyświetlenie zawartości bieżącego katalogu.
+      - (d) Wyświetlenie zawartości wybranego pliku.
+      - (e) Wpisanie tekstu do wybranego pliku (dotychczasowy tekst znajdujący się w pliku powinien zostać usunięty).
+      - (f) Wykonanie kopiowania wybranego pliku do wybranego katalogu.
+      - (g) Zmienienie nazwy wybranego katalogu znajdującego się w bieżącej lokalizacji.
+      - (h) Wyświetlenie zawartości wybranego katalogu znajdującego się w bieżącej loka- lizacji.
+      - (i) Wyświetlenie liczby katalogów znajdujących się w bieżącej lokalizacji.
+      - (j) Wyświetlenie liczby plików zwykłych znajdujących się w bieżącej lokalizacji.
+      - (k) Zakończenie programu.
+    - W przypadku operacji na plikach i katalogach użytkownik powinien każdorazowo podawać ich nazwy oraz w przypadku pliku rozszerzenie. Program powinien weryfi- kować czy dana operacja jest możliwa do zrealizowania i informować o tym użytkow- nika. Dla przykładu, w przypadku tworzenia pliku po podaniu nazwy i rozszerzenia przez użytkownika, powinno zostać zweryfikowane czy taki plik już nie znajduję się w bieżącej lokalizacji, a jeśli się znajduje, użytkownik powinien zostać o tym poin- formowany oraz nie powinna zachodzić próba jego utworzenia.
 - <strong>Instrukcje do skryptów z katalogu lab_03:</strong>
